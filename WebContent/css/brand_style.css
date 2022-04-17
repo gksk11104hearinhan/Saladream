@@ -1,0 +1,573 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#clear {
+	clear: both;
+}
+
+#brand_wrap {
+	max-width: 1080px;
+	margin: auto;
+	width: 100%;
+}
+
+#brand_keyimg {
+	margin-top: 10px;
+	height: 200px;
+	width: 1000px;
+	line-height: 200px;
+	text-align: center;
+	background-color: #59a456;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url("../b_img/brand_key2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: none !important; 
+}
+
+#down_wrap {
+    margin: 0 auto;
+	max-width: 1080px;
+	width: 100%;
+	height: 350px;
+	padding-top: 5%;
+}
+
+.down {
+	/* border: 1px solid #ccc; */
+	width: 415px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.nav03_text01 {
+	font-family: 여기어때잘난서체;
+	font-size: 41pt;
+	text-align: center;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.NText01_con01 {
+	color: #ffffff;
+}
+
+.NText01_con02 {
+	color: #ffffff;
+}
+
+.nav03_text03 {
+	font-family: Jalnan;
+	font-size: 27.4pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav03_text02 {
+	font-family: NanumSquareRound !important;
+	font-size: 14pt;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {
+  	top: -20px;
+  	opacity: 0;
+  }
+  to {
+  	top: 0px;
+  	opacity: 1;
+  }
+}
+
+/* =========================================== */
+
+#brand_nav {
+	background-color: #004b20;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	/* margin-bottom: 20px; */
+	/* color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px; */
+}
+
+.CUSnav_text1 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.CUSnav_text1 a {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px;
+}
+
+.CUSnav_text2 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+
+/* ========================================= */
+
+#brand_wrap {
+	width: 100%;
+	max-width: 1080px;
+}
+
+/* ========================================= */
+
+
+#brand_conWrap01 {
+	height: 1572px;
+	background-size: auto;
+	background-image: url("../b_img/brand_wrapBack01.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#brand_intro {
+	margin: 0 auto;
+	display: flex;
+	padding-top: 80px;
+}
+
+.bCWrap01_Image01 {
+	width: 570px;
+	height: 491px;
+	margin-left: 80px;
+}
+
+.bCWrap01_Image01 ul {
+	list-style-type: none;
+}
+
+.bCWrap01_Image01 ul li {
+	float: left;
+}
+
+.IntroPic01 {
+	margin-top: 35px;
+	margin-right: 17px;
+}
+
+.IntroPic02 {
+	margin-top: 85px;
+	margin-right: 17px;
+}
+
+
+.bCWrap01_Text01 {
+	width: 370px;
+	height: 491px;
+	float: right;
+	margin-left: 40px;
+}
+
+.small_title01 {
+	font-family: NanumSquareRound;
+	font-size: 18px;
+	color: #22742e;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+.small_info01 {
+	margin-top: 25px;
+	margin-bottom: 50px;
+	width: 318px;
+	height: 145px;
+	font-family: KoPubDotum;
+	color: #909090;
+	padding-left: 5px;
+}
+
+.small_button01 {
+	font-family: NanumSquareRound;
+	font-size: 14px;
+	color: #22742e;
+	padding-left: 5px;
+}
+
+.small_button01 a {
+	color: white;
+}
+
+.small_button01 a:hover {
+	color: white;
+}
+
+.IntroBut {
+	color: white;
+	background-color: #005826;
+	border: 1px solid #005826;
+	padding: 12px 27px;;
+	border-radius: 90px;
+}
+
+
+/*  */
+
+#brand_rule {
+	display: flex;
+	padding-top: 40px;
+	margin-left: 80px;
+}
+
+.bCWrap01_Text02 {
+	width: 370px;
+	height: 522px;
+	padding-top: 130px;
+}
+
+
+.bCWrap01_Image02 {
+	width: 570px;
+	height: 522px;
+	float: right;
+}
+
+.small_Image02 {
+	padding-top: 10px;
+}
+
+.bCWrap01_Image02 {
+	padding-left: 60px;
+}
+
+.small_title02 {
+	font-family: NanumSquareRound;
+	font-size: 18px;
+	color: #22742e;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+/*  */
+
+#brand_explain {
+	display: flex;
+	padding-top: 20px;
+	margin-left: 60px;
+}
+
+#bExplain01 {
+	width: 270px;
+	height: 378px;
+}
+
+#bExplain02 {
+	width: 307px;
+	height: 378px;
+}
+
+#bExplain03 {
+	width: 270px;
+	height: 378px;
+}
+
+.bExp_barLine {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 30px;
+	/* height: 400px; */
+}
+
+.bExp_TextNum {
+	font-size: 34px;
+	font-family: KoPubDotum;
+	color: white;
+	margin-top: 15px;
+}
+
+.bExp_TextTitle01 {
+	font-size: 20px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 213px;
+	height: 31px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextSub01 {
+	font-size: 17px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 213px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextInfo01 {
+	font-size: 14px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 213px;
+	height: 151px;
+	margin-top: 15px;
+	margin-left: 20px;
+	line-height: 1.7;
+}
+
+.bExp_TextTitle02 {
+	font-size: 20px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 290px;
+	height: 31px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextSub02 {
+	font-size: 17px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 220px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextInfo02 {
+	font-size: 14px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 260px;
+	height: 151px;
+	margin-top: 15px;
+	margin-left: 20px;
+	line-height: 1.7;
+}
+
+.bExp_TextTitle03 {
+	font-size: 20px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 213px;
+	height: 31px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextSub03 {
+	font-size: 17px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 220px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.bExp_TextInfo03 {
+	font-size: 14px;
+	font-family: KoPubDotum;
+	color: white;
+	width: 220px;
+	height: 151px;
+	margin-top: 15px;
+	margin-left: 20px;
+	line-height: 1.7;
+}
+
+/* ========================================= */
+
+#brand_manage {
+	margin: 0 auto;
+	background-size: auto;
+	background-image: url("../b_img/brand_manageBack02.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 415px;
+}
+
+.bMan_Text01 {
+	font-family: KoreanMMR2R;
+	font-size: 21px;
+	color: #22742e;
+	text-align: center;
+	font-weight: 600;
+	padding-top: 90px;
+}
+
+.bMan_Text02 {
+	font-family: KoreanMMR2R;
+	font-size: 17px;
+	color: #5d5d5d;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+#bManage01 {
+	width: 1080px;
+	margin: 0px auto;
+	/* right: 5%; */
+	margin-left: 25%;
+	padding-top: 10px;
+}
+
+#bManage01 li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.bManage01_Con01 {
+	width: 165px;
+	height: 190px;
+}
+
+.bMCon01_Image01 {
+	text-align: center;
+	padding-left: 30px; 
+}
+
+.bMCon01_Text01 {
+	font-family: KoreanMMR2R;
+	font-size: 14px;
+	color: #454545;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 400;
+}
+
+.bMCon01_Image02 {
+	text-align: center;
+	padding-left: 20px; 
+}
+
+.bMCon01_Text02 {
+	font-family: KoreanMMR2R;
+	font-size: 14px;
+	color: #454545;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 400;
+}
+
+.bMCon01_Image03 {
+	text-align: center;
+	padding-left: 25px; 
+}
+
+.bMCon01_Text03 {
+	font-family: KoreanMMR2R;
+	font-size: 14px;
+	color: #454545;
+	text-align: center;
+	padding-top: 15px;
+	font-weight: 400;
+}
+
+/* =================================================== */
+
+#brand_road {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+#bRoad_title01 {
+	font-family: NanumSquareRound;
+	font-size: 19px;
+	color: #22742e;
+	font-weight: 600;
+	padding-left: 170px;
+	padding-bottom: 30px;
+}
+
+#bRoad_roadMap01 {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+#bRoad_addr01 {
+	font-family: KoPubDotum;
+	font-size: 20px;
+	color: #060606;
+	font-weight: 500;
+	padding-left: 170px;
+	padding-bottom: 30px;
+	line-height: 1.8;
+}
+
+#bRoad_subway {
+	padding-left: 170px;
+	padding-bottom: 30px;
+}
+
+/*  */
+
+#bRoad_bus {
+	padding-left: 170px;
+	padding-bottom: 60px;
+}
+
+
+
+
+.bRoad_useText01 {
+	font-family: KoPubDotum;
+	font-size: 22px;
+	color: #22742e;
+	font-weight: 700;
+	height: 28px;
+}
+
+.bRoad_useText02 {
+	font-family: KoPubDotum;
+	font-size: 22px;
+	color: #22742e;
+	font-weight: 500;
+	height: 28px;
+}
+
+.bRoad_useText03 {
+	font-family: KoPubDotum;
+	font-size: 15px;
+	color: #7f7f7f;
+	font-weight: 400;
+	line-height: 1.7;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+

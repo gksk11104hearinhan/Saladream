@@ -1,0 +1,21 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#custom_wrap {
+	max-width: 1000px;
+	margin: auto;
+	width: 100%;
+}
+

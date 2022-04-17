@@ -1,0 +1,194 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+#event_wrap {
+	max-width: 1080px;
+	margin: auto;
+	width: 100%;
+}
+
+/* #event_keyimg {
+	margin-top: 10px;
+	height: 200px;
+	width: 1000px;
+	line-height: 200px;
+	text-align: center;
+	background-color: #59a456;
+} */
+
+
+.banner {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url("../e_img/event_key.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: none !important; 
+}
+
+#down_wrap {
+    margin: 0 auto;
+	max-width: 1080px;
+	width: 100%;
+	height: 350px;
+	padding-top: 5%;
+}
+
+.down {
+	/* border: 1px solid #ccc; */
+	width: 415px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.nav03_text01 {
+	font-family: 여기어때잘난서체;
+	font-size: 41pt;
+	text-align: center;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.NText01_con01 {
+	color: #ffffff;
+}
+
+.NText01_con02 {
+	color: #ffffff;
+}
+
+.nav03_text03 {
+	font-family: Jalnan;
+	font-size: 27.4pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav03_text02 {
+	font-family: NanumSquareRound !important;
+	font-size: 14pt;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {
+  	top: -20px;
+  	opacity: 0;
+  }
+  to {
+  	top: 0px;
+  	opacity: 1;
+  }
+}
+
+/* =========================================== */
+
+#event_nav {
+	background-color: #004b20;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	/* margin-bottom: 20px; */
+	/* color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px; */
+}
+
+.CUSnav_text1 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.CUSnav_text1 a {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px;
+}
+
+.CUSnav_text2 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+
+/* ========================================= */
+
+#eventIng_wrap {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+
+#eING_title {
+	font-family: NanumSquare;
+	font-size: 18px;
+	color: #727272;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+#eING_con01 {
+	padding-top: 10px;
+}
+
+#eING_con02 {
+	padding-top: 11px;
+}
+
+.eINGcon02_Image {
+	padding-right: 11px;
+}
+
+/* ========================================= */
+
+#eventFinish_wrap {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 80px;
+	margin-bottom: 150px;
+}
+
+#eFIN_title {
+	font-family: NanumSquare;
+	font-size: 18px;
+	color: #727272;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+#eFIN_con {
+	padding-top: 10px;
+}
+
+.eFINcon_Image {
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+

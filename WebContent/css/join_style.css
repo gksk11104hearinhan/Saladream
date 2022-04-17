@@ -1,0 +1,254 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+	background-color: #f5f6f7;
+}
+
+#join_wrap {
+	max-width: 760px;
+	margin: auto;
+	width: 100%;
+	/* width: 760px; */
+	/* border: 1px solid #cccccc; */
+}
+
+#join_header {
+	width: 760px;
+	height: 168px;
+	text-align: center;
+	/* border: 1px solid #cccccc; */
+}
+
+#join_header img {
+	padding-top: 62px; 
+}
+
+#container {
+	width: 760px;
+}
+
+#content {
+	width: 460px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+#join_up {
+	/* 아이디, 비번, 비번확인 */
+	overflow: hidden;
+	width: 100%;
+	font-size: 12px;
+}
+
+#join_con01 {
+	/* 이름, 생년월일, 성별, 이메일 */
+	margin-top: 10px;
+	overflow: hidden;
+	width: 100%; 
+	/* height: 800px; */
+}
+
+#join_con02 {
+	/* (우편번호)주소, 취미, 직업 */
+	margin-top: 10px;
+	overflow: hidden;
+	width: 100%; 
+	/* height: 800px; */
+}
+
+#join_under {
+	/* 이메일, 휴대전화 */
+	margin-top: 10px;
+	overflow: hidden;
+	width: 100%; 
+	/* height: 800px; */
+}
+
+.join_title {
+	margin: 19px 0 8px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.input_row {
+	position: relative;
+	height: 29px;
+	margin: 0 0 14px;
+	padding: 10px 35px 10px 15px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+}
+
+.int {
+	font-size: 15px;
+	line-height: 16px;
+	position: relative;
+	z-index: 9;
+	width: 100%;
+	height: 16px;
+	padding: 7px 0 6px;
+	border: 0px;
+}
+
+.join_birthday {
+	height: 77px;
+}
+
+.input_row2 {
+	position: relative;
+	height: 51px;
+	/* margin: 0 0 5px; */
+	/* width: 147px; */
+	background: #f5f6f7;
+}
+
+.int_bir {
+	font-size: 15px;
+	line-height: 16px;
+	position: relative;
+	z-index: 9;
+	width: 110px;
+	height: 36px;
+	padding: 7px 15px 6px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	margin-right: 7px;
+	/* display: block; */
+}
+
+.sel_bir01 {
+	/* display: block; */
+	position: relative;
+	width: 147px;
+	height: 51px;
+	font-size: 15px;
+	line-height: 16px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	margin-right: 5px;
+	/* padding: 11px 14px; */
+}
+
+.sel_bir02 {
+	/* display: block; */
+	position: relative;
+	width: 147px;
+	height: 51px;
+	font-size: 15px;
+	line-height: 16px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	/* padding: 11px 14px; */
+}
+
+.sel {
+	position: relative;
+	width: 100%;
+	height: 51px;
+	font-size: 15px;
+	line-height: 16px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	padding: 10px 14px;
+}
+
+.sel_phone {
+	/* display: block; */
+	position: relative;
+	width: 147px;
+	height: 51px;
+	font-size: 15px;
+	line-height: 16px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	margin-right: 8.5px;
+	padding: 10px 14px;
+	/* padding: 11px 14px; */
+}
+
+.int_phone01 {
+	font-size: 15px;
+	line-height: 16px;
+	position: relative;
+	z-index: 9;
+	width: 110px;
+	height: 36px;
+	padding: 7px 15px 6px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	margin-right: 8.5px;
+	/* display: block; */
+}
+
+.int_phone02 {
+	font-size: 15px;
+	line-height: 16px;
+	position: relative;
+	z-index: 9;
+	width: 110px;
+	height: 36px;
+	padding: 7px 15px 6px;
+	border: solid 1px #dadada;
+	background: #ffffff;
+	/* margin-right: 1px; */
+	/* display: block; */
+}
+ 
+.btn_login {
+	display: block;
+	width: 100%;
+	height: 61px;
+	margin: 30px 0 14px;
+	padding-top: 1px;
+	border: 0;
+	background-color: #59a456;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 31px;
+	
+}
+
+.under_info {
+	font-size: 13px;
+	line-height: 14px;
+	padding-top: 20px;
+	text-align: center;
+	color: #8e8e8e;
+	border-top: 1px solid #cccccc;
+	margin-top: 40px;
+}
+
+.under_info a {
+	font-size: 13px;
+	line-height: 13px;
+	display: inline-block;
+	text-decoration: none;
+	color: #8e8e8e;
+}
+
+#join_con04 {
+	max-width: 460px;
+	margin: 17px auto 15px;
+}
+
+.under_event {
+	width: 460px;
+	height: 110px;
+	text-align: center;
+	border: 1px solid #ccccccc;
+	background-color: #cad9ca;
+	padding: 24px 0 31px;
+	margin: 47px auto 15px;
+}
+
+#join_footer {
+	text-align: center;
+	margin-bottom: 50px;
+	/* 더 꾸미기 해야함 */
+	font-size: 12px;
+}

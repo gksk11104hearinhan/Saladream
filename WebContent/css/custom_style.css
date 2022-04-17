@@ -1,0 +1,424 @@
+@charset "utf-8";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+	padding-left: 60px;
+}
+
+
+.banner {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url("../cus_img/custom_key2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: none !important; 
+}
+
+#down_wrap {
+    margin: 0 auto;
+	max-width: 1080px;
+	width: 100%;
+	height: 350px;
+	padding-top: 5%;
+	padding-left: 45%;
+}
+
+.down {
+	/* border: 1px solid #ccc; */
+	width: 350px;
+	height: 200px;
+	float: right;
+	margin-right: 5%
+}
+
+.nav03_text01 {
+	font-family: 여기어때잘난서체;
+	font-size: 41pt;
+	text-align: center;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.NText01_con01 {
+	color: #4c8f34;
+}
+
+.NText01_con02 {
+	color: #f9bf22;
+}
+
+.nav03_text03 {
+	font-family: Jalnan;
+	font-size: 27.4pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav03_text02 {
+	font-family: NanumSquareRound !important;
+	font-size: 14pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {
+  	top: -20px;
+  	opacity: 0;
+  }
+  to {
+  	top: 0px;
+  	opacity: 1;
+  }
+}
+
+/*  */
+
+#nav ul {
+	margin-top: 15.5px;	
+}
+
+#nav2 ol {
+	margin-top: 14px;
+}
+
+#custom_wrap {
+	max-width: 1080px;
+	margin: auto;
+	width: 100%;
+}
+
+#custom_route {
+	max-width: 1000px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	color: #6e6e6e;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 14px;
+}
+
+/* #custom_keyimg {
+	margin-top: 10px;
+	height: 200px;
+	width: 1000px;
+	height: 288px;
+	line-height: 200px;
+	text-align: center;
+	background-color: #59a456;
+	background-size: auto;
+	background-image: url("../cus_img/cus_key.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#custom_key_button img {
+	text-align: center;
+	margin-left: 282px;
+	margin-top: 378px;
+} */
+
+#custom_content_wrap {
+	width: 100%;
+	margin: 0 auto;
+	/* height: 2120px; */
+	/* height는 일단 커스텀 메뉴바가 있다는 가정하에 진행 -> 메뉴바가 없는 ㄱㅇ우 height는 불인다. */
+	/* min-height: 2050px; */
+	
+}
+
+#custom_nav {
+	background-color: #82c030;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	margin-bottom: 40px;
+	/* color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px; */
+}
+
+.CUSnav_text1 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px;
+	padding-left: 21px;
+	padding-right: 21px;
+}
+
+.CUSnav_text1 a {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px;
+}
+
+.CUSnav_text2 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 26px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+
+/* ========================================= */
+
+#custom_step01 {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#cus_step01_text {
+	width: 340px;
+	height: 80px;
+	padding-top: 30px;
+}
+
+#cus_step01_text ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+#cus_step01_text ol li {
+	float: left;
+	color: #5f8b25;
+	line-height: 1.2;
+}
+
+#cus_step01_text ol li img {
+	margin: 5px 15px;
+}
+
+.step01_text01 {
+	margin-top: 3px;
+	font-size: 20px;
+	font-family: NanumSquare;
+}
+
+/* ========================================= */
+
+#cus_step01_con {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+#custom_step02 {
+	width: 100%;
+	background-color: #f4f9ed;
+}
+
+#custom_step04 {
+	width: 100%;
+	background-color: #f4f9ed;
+}
+
+#custom_step06 {
+	width: 100%;
+	background-color: #f4f9ed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================이 아래는 0519에 효과 바꿨음 ================================ */
+/* ========================================= */
+
+/* #custom_step01 {
+	width: 840px;
+	height: 260px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#cus_step01_text {
+	width: 340px;
+	height: 55px;
+	border: 1px solid red;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+#cus_step01_text ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+}
+#cus_step01_text ol li {
+	float: left;
+	color: #5f8b25;
+	line-height: 1.2;
+}
+
+#cus_step01_text ol li img {
+	margin: 5px 15px;
+}
+
+.step01_text01 {
+	margin-top: 3px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#cus_step01_con {
+	width: 830px;
+	height: 170px;
+	border: 1px solid red;
+	margin: 10px auto;
+}
+
+#cus_step01_con ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+#cus_step01_con ul li {
+	float: left;
+}
+
+.step01_con01 {
+	width: 114px;
+	height: 114px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #ffffff;
+}
+ */
+/* ========================================= */
+
+/* #custom_step02 {
+	width: 840px;
+	height: 265px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+
+#custom_step03 {
+	width: 840px;
+	height: 255px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#custom_step04 {
+	width: 840px;
+	height: 260px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+
+#custom_step05 {
+	width: 840px;
+	height: 260px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#custom_step06 {
+	width: 840px;
+	height: 265px;
+	border: 1px solid blue;
+	margin: 0 auto;
+}
+ */
+ 
+/* ========================================= */
+
+ #custom_button {
+	margin-top: 70px;
+	margin-bottom: 70px;
+	text-align: center;
+	padding: 2px;
+	/* border: 1px solid #cccccc; */
+	text-decoration: none;
+}
+
+.cart_a {
+	text-decoration: none;
+}
+
+.btn_custom01 {
+	width: 220px;
+	height: 60px;
+	background-color: #dadada;
+	border: 0;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn_custom02 {
+	width: 220px;
+	height: 60px;
+	background-color: #91d635;
+	border: 0;
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-left: 40px;
+}
+
+/*=============radio를 꾸민건데 현재(20200510)시점 작동되지 않는 코딩===============*/
+
+/* .step01_con01  input[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.step01_con01 [type=radio] + img {
+  cursor: pointer;
+}
+
+.step01_con01 [type=radio]:checked + img {
+  outline: 2px solid #f00;
+} */
+
+/*=============radio를 꾸민건데 현재(20200510)시점 작동되지 않는 코딩===============*/
+
+
+

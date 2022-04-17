@@ -1,0 +1,423 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+/* ================================================ */
+
+#cusOrder_wrap {
+	max-width: 1000px;
+	margin: auto;
+	margin-top: 70px;
+	width: 100%;
+}
+
+#key {
+	margin: 0 auto;
+	width: 807px;
+	/* border-bottom: solid 1px #ccc; */
+	/* border-top: solid 1px #ccc; */
+}
+
+.key_con01 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 35px;
+	/* font-weight: bold; */
+	font-family: NanumBarunGothic YetHangul;
+}
+
+.key_con02 {
+	margin-bottom: 5px;
+	font-size: 16px;
+	/* font-weight: bold; */
+	color: #363636;
+	font-family: NanumBarunGothic YetHangul;
+	letter-spacing: 1px;
+}
+
+/* =============order에서 긁어온 파일================== */
+
+#order_table01 {
+	margin: 0 auto;
+	width: 807px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+
+#order_infoBox {
+	margin: 0 auto;
+	width: 807px;
+}
+
+
+
+#Otable01_title01{
+	margin: 0 auto;
+	margin-top: 30px;
+	width: 807px;
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 5px;
+}
+
+/*  */
+
+.Otable_td01 {
+	width: 530px;
+	height: 60px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.Otable_td02 {
+	width: 92px;
+	height: 60px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.Otable_td03 {
+	width: 92px;
+	height: 60px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.Otable_td04 {
+	width: 92px;
+	height: 60px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.Otable_td05 {
+	width: 530px;
+	height: 160px;
+	text-align: right;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.Otable_td05Left {
+	width: 530px;
+	height: 160px;
+	text-align: left;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+	line-height: 1.7;
+}
+
+.Otable_td06 {
+	width: 92px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+}
+
+.Otable_td07 {
+	width: 92px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+}
+
+.Otable_td08 {
+	width: 92px;
+	text-align: center;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 13px;
+}
+
+.OT_Td05Con01 {
+	padding-right: 20px;
+}
+
+/*  */
+
+
+
+
+
+#OinfoBox01 {
+	margin-top: 50px;
+}
+
+#OinfoBox01_title {
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 5px;
+}
+
+.infoBox_table {
+	width: 100%;
+	border-top: 2px solid #82cf2c;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.infoBox01_td01 {
+	width: 200px;
+	padding-left: 12px;
+	padding-top: 15px;
+}
+
+.infoBox01_td02 {
+	width: 200px;
+	padding-left: 12px;
+	padding-top: 9px;
+}
+
+.infoBox01_td03 {
+	width: 200px;
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 15px;
+}
+
+.infoBox02_td01 {
+	padding-left: 12px;
+	padding-top: 15px;
+	padding-bottom: 3px;
+}
+
+.infoBox02_td02 {
+	padding-left: 12px;
+	padding-top: 9px;
+}
+
+.infoBox02_td03 {
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 15px;
+}
+
+/* ======================================================= */
+
+#OinfoBox02 {
+	margin-top: 50px;
+}
+
+#OinfoBox02_title {
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 5px;
+}
+
+.infoBox01_td04 {
+	width: 200px;
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 15px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+.infoBox02_td04 {
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 15px;
+	border-bottom: 1.4px solid #d7d7d7;
+}
+
+/* ======================================================= */
+
+#OinfoBox03 {
+	margin-top: 50px;
+}
+
+#OinfoBox03_title {
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 5px;
+}
+
+/* ======================================================= */
+
+#OinfoBox04 {
+	margin-top: 50px;
+}
+
+#OinfoBox04_title {
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 5px;
+}
+
+/* ======================================================= */
+
+#OinfoBox05 {
+	margin-top: 50px;
+}
+
+#OinfoBox05_title {
+	font-size: 17px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #808080;
+	padding-bottom: 0px;
+}
+
+.OinfoBox05_hr {
+	width: 100%;
+	color: #82cf2c;
+}
+
+.OinfoBox05_text00 {
+	font-size: 15px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #363636;
+}
+
+.OinfoBox05_con01 {
+	margin-top: 10px;
+}
+
+.OinfoBox05_text01 {
+	font-size: 13px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #363636;
+	padding-left: 35px;
+}
+
+.OinfoBox05_text02 {
+	font-size: 13px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #969696;
+}
+
+.OinfoBox05_text03 {
+	font-size: 13px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #227f25;
+}
+
+/* ======================================================= */
+
+#OinfoBox06 {
+	margin-top: 50px;
+	height: 159px;
+	width: 100%;
+	background-color: #ebebeb;
+}
+
+.infoBox06_text01 {
+	font-size: 11px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #0a0a0a;
+	line-height: 21;
+	padding-left: 15px;
+}
+
+.infoBox06_text02 {
+	font-size: 18px;
+	font-family: NanumBarunGothic YetHangul;
+	font-weight: bold;
+	color: #f0211c;
+	padding-left: 10px;
+}
+
+.infoBox06_text03 {
+	font-size: 13px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #0a0a0a;
+	padding-left: 3px;
+}
+
+/* ======================================================= */
+
+#OinfoBox07 {
+	margin-top: 50px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+/* ======================================================= */
+
+.OinfoBox05_text05 {
+	font-size: 15px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #227f25;
+}
+
+.OrderBuy01_style01 {
+	border: 0px;
+	background-color: #227f25;
+	color: white;
+	padding: 7px 30px;
+}
+
+.OrderBuy01_style02 {
+	border: 0px;
+	background-color: #227f25;
+	color: white;
+	padding: 7px 30px;
+}
+
+.OrderBuy01_style03 {
+	border: 0px;
+	background-color: #659843;
+	color: white;
+	padding: 7px 30px;
+}
+
+.infoBox01_td010 {
+	text-align: center;
+}
+
+.infoBox01_td009 {
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #363636;
+}
+
+.infoBox01_td008 {
+	width: 400px;
+	height: 40px;
+	text-align: center;
+	font-size: 15px;
+	font-family: NanumBarunGothic YetHangul;
+	color: #363636;
+}
+
+.infoBox01_td007 {
+	width: 400px;
+	height: 40px;
+	text-align: right;
+	padding-right: 145px;
+}
+
+.OinfoBox05_con04 {
+	margin-top: 5px;
+}
+
+
+

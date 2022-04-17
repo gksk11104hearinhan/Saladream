@@ -1,0 +1,429 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    margin: 0 auto;
+    background: url("../c_img/classic_key3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: none !important; 
+}
+
+#down_wrap {
+    margin: 0 auto;
+	max-width: 1080px;
+	width: 100%;
+	height: 350px;
+	padding-top: 5%;
+}
+
+.down {
+	/* border: 1px solid #ccc; */
+	width: 415px;
+	height: 200px;
+	margin: 0 auto;
+}
+
+.nav03_text01 {
+	height: 82px;
+	font-family: 여기어때잘난서체;
+	font-size: 41pt;
+	text-align: center;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.NText01_con01 {
+	color: #4c8f34;
+}
+
+.NText01_con02 {
+	color: #f9bf22;
+}
+
+.nav03_text03 {
+	height: 54px;
+	font-family: Jalnan;
+	font-size: 27.4pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+.nav03_text02 {
+	
+	height: 28px;
+	font-family: NanumSquareRound !important;
+	font-size: 14pt;
+	text-align: center;
+	color: #6f6f6f;
+	position: relative;
+    animation: mymove 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+  from {
+  	top: -20px;
+  	opacity: 0;
+  }
+  to {
+  	top: 0px;
+  	opacity: 1;
+  }
+}
+
+/* =========================================== */
+
+#classic_nav {
+	background-color: #82c030;
+	height: 62px;
+	text-align: center;
+	line-height: 62px;
+	margin-bottom: 20px;
+	/* color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px; */
+}
+
+.CUSnav_text1 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 24px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.CUSnav_text1 a {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 20px;
+}
+
+.CUSnav_text2 {
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+
+/* ========================================= */
+
+#classic_wrap {
+	max-width: 1080px;
+	margin: auto;
+	width: 100%;
+}
+
+
+#classic_route {
+	max-width: 1000px;
+	width: 100%;
+	padding-top: 20px;
+	padding-left: 100px;
+	color: #6e6e6e;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 14px;
+}
+
+
+#classic_keyimg {
+	/* margin-top: 10px; */
+	/* height: 200px; */
+	width: 1000px;
+	height: 480px;
+	/* line-height: 200px;
+	text-align: center;
+	background-color: #59a456; */
+	background-size: auto;
+	background-image: url("../c_img/classic_keyback2.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#classic_key_button img {
+	text-align: center;
+	margin-left: 282px;
+	margin-top: 428px;
+}
+
+#classic_word01 {
+	width: 1000px;
+	height: 100px;
+	background-size: auto;
+	background-image: url("../c_img/classic_word.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#classic_con01 {
+	margin: 0 auto;
+	width: 900px;
+}
+
+#classic_con01 ul {
+	list-style-type: none;
+	/* margin: 0px;
+	width: 770px; */
+	width: 840px;
+	height: 1700px;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;;
+	/* border: 1px solid #ebebeb; */
+}
+
+#classic_con01 ul li {
+	width: 248px;
+	height: 495px;
+	border: 1px solid #ebebeb;
+	float: left;
+	margin: 15px;
+}
+
+.classic_thumnail {
+	width: 248px;
+	height: 294px;
+}
+
+.classic_info {
+	width: 208px;
+	height: 175px;
+	padding: 20px;
+}
+
+.thum_img {
+	overflow: hidden;
+	position: absolute;
+}
+
+
+.classic_ico {
+	position: absolute;
+}
+
+.classic_info {
+	overflow: hidden;
+	position: absolute;
+/* 	margin-top: 150px; */
+}
+
+#classic_tag {
+	overflow: hidden;
+	position: absolute;
+	width: 248px;
+	height: 25px;
+	/* background-color: #ccc; */
+	margin-top: 175px;
+}
+
+#classic_tag img {
+	float: right;
+	margin-right: 5px;
+}
+
+#cname {
+	width: 208px;
+	height: 35px;
+	/* border: 1px solid #ebebeb; */
+	text-align: center;
+	line-height: 35px;
+}
+
+.classic_name {
+	width: 208px;
+	height: 35px;
+	/* margin-top: 10px;
+	margin-bottom: 10px; */
+	font-size: 20px;
+	font-weight: 900;
+	/* background-color: #ccc; */
+	/* border: 1px solid #ebebeb; */
+	/* position: relative; */
+}
+
+#ccost {
+	width: 208px;
+	height: 35px;
+	/* border: 1px solid #ebebeb; */
+	text-align: center;
+	line-height: 35px;
+	margin-bottom: 10px;
+}
+
+.classic_cost {
+	width: 248px;
+	height: 35px;
+	margin-top: 10px;
+	/* margin-bottom: 10px; */
+	font-size: 20px;
+	font-weight: 900;
+	/* background-color: #ccc; */
+	/* position: relative; */
+}
+
+#cdesc {
+	width: 208px;
+	height: 75px;
+	/* border: 1px solid #ebebeb; */
+	text-align: center;
+	
+}
+
+.classic_desc {
+	width: 248px;
+	height: 75px;
+	font-size: 16px;
+	color: #a2a2a2;
+	line-height: 1.5;
+	font-weight: 100;
+}
+
+#clear {
+	clear: both;
+}
+
+
+/* ==============================썸네일 부분 호버 시 아아콘============================== */
+
+/* @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,900);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1382 {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  min-width: 230px;
+  max-width: 248px;
+  max-height: 294px;
+  width: 100%;
+  color: #004000;
+  text-align: center;
+  font-size: 16px;
+}
+figure.snip1382 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.snip1382 img {
+  max-width: 100%;
+}
+figure.snip1382:after,
+figure.snip1382:before,
+figure.snip1382 figcaption:after,
+figure.snip1382 figcaption:before {
+  background: #ffffff;
+  height: 25%;
+  position: absolute;
+  content: '';
+  opacity: 0;
+  z-index: 1;
+  left: 50%;
+  right: 50%;
+}
+
+figure.snip1382:before {
+  top: 0;
+}
+figure.snip1382:after {
+  top: 25%;
+}
+figure.snip1382 figcaption:before {
+  top: 50%;
+  z-index: -1;
+}
+figure.snip1382 figcaption:after {
+  top: 75%;
+  z-index: -1;
+}
+figure.snip1382 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  padding: 30px;
+}
+figure.snip1382 h2,
+figure.snip1382 p,
+figure.snip1382 .icons {
+  margin: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+
+figure.snip1382 h2 {
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+}
+figure.snip1382 p {
+  font-weight: 300;
+  position: absolute;
+  bottom: 130px;
+  left: 0;
+}
+
+
+figure.snip1382 .icons {
+  position: absolute;
+  bottom: 70px;
+  left: 0;
+  width: 100%;
+}
+
+figure.snip1382:hover:after,
+figure.snip1382.hover:after,
+figure.snip1382:hover:before,
+figure.snip1382.hover:before,
+figure.snip1382:hover figcaption:after,
+figure.snip1382.hover figcaption:after,
+figure.snip1382:hover figcaption:before,
+figure.snip1382.hover figcaption:before {
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+figure.snip1382:hover figcaption h2,
+figure.snip1382.hover figcaption h2,
+figure.snip1382:hover figcaption .icons,
+figure.snip1382.hover figcaption .icons {
+  opacity: 1;
+}
+figure.snip1382:hover figcaption p,
+figure.snip1382.hover figcaption p {
+  opacity: 0.7;
+} */
+
+
+
+/* #footer {
+	width: 1000px;
+	height: 305px;
+	background-color: #ebebeb;
+} */

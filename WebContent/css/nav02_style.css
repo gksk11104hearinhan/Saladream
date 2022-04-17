@@ -1,0 +1,235 @@
+@charset "EUC-KR";
+
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 3px solid #ffffff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ffffff;
+}
+.slider {
+	height: 540px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+.slider .indicators {
+  bottom: 60px;
+  z-index: 100;
+  /* text-align: left; */
+}
+
+  ul.slides {
+	height: 500px !important;
+}
+
+.key2_image {
+	width: 220px !important;
+	height: 134px !important;
+}
+
+.key2_image2 {
+	width: 624px !important;
+	height: 160px !important;
+}
+
+.key2_Cir01 {
+	width: 17px !important;
+	height: 17px !important;/* 
+	margin-left: 10px; */
+	margin-right: 34px;
+}
+
+.key2_Cir02 {
+	width: 17px !important;
+	height: 17px !important;
+	margin-right: 48px;
+}
+
+.key2_Cir03 {
+	width: 17px !important;
+	height: 17px !important;
+	margin-right: 34px;
+}
+
+.key2_Cir04 {
+	width: 17px !important;
+	height: 17px !important;
+}
+
+/* ======================================================= */
+
+/* .nav02_text01 {
+	font-family: KoreanDKBR !important;
+	font-size: 42pt;
+}
+
+.light grey-text text-lighten-3 {
+	font-family: NanumSquareRound !important;
+	font-size: 10pt;
+}
+ */
+/* .slider .slides li .caption {
+	top: 20%;
+} */
+
+/* ======================================================= */
+
+.firstSlide_Text001 {
+	font-family: KoreanSRUDBM;
+	font-size: 48px;
+	color: #000000;
+	line-height: 1.7;
+}
+
+.firstSlide_Text002 {
+	font-family: KoreanSRUDBM;
+	font-size: 80px;
+	color: #df2217;
+}
+
+.firstSlide_Text003 {
+	font-family: KoreanSRUDBM;
+	font-size: 80px;
+	color: #000000;
+}
+
+.firstSlide_Text004 {
+	font-family: KoreanSRUDBM;
+	font-size: 75px;
+	color: #5a820f;
+}
+
+.firstSlide_Text005 {
+	font-family: KoreanDDDR;
+	font-size: 28px;
+	color: #363636;
+	line-height: 1.8;
+}
+
+.firstSlide_Link001 {
+	font-family: KoreanSNML;
+	color: white;
+	background-color: #43690a;
+	border-radius: 900px;
+	padding: 10px 20px;
+	line-height: 5;
+}
+
+.firstSlide_Link001 a {
+	color: white;
+}
+
+.firstSlide_Link001 a:hover {
+	color: white;
+}
+
+/*  */
+
+/* #key2_bound {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0px 310px;
+} */
+
+#key2_circle {
+	padding-right: 50px;
+}
+
+.key2Bound01 {
+	margin-right: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.secondSlide_Text001 {
+	font-family: Jalnan;
+	color: #ffffff;
+	font-size:55px;
+}
+
+.secondSlide_Text002 {
+	font-family: Jalnan;
+	color: #faee52;
+	font-size:55px;
+	text-shadow: 1px 2px 2px #000000;
+	line-height: 1.5;
+}
+
+.secondSlide_Text003 {
+	font-family: Jalnan;
+	color: #ffffff;
+	font-size:55px;
+	text-shadow: 1px 2px 2px #000000;
+	line-height: 1.5;
+}
+
+.secondSlide_Text004 {
+	font-family: a¿¾³¯»çÁø°ü2;
+	color: #000000;
+	font-size:20px;
+}
+
+/*  */
+
+.thirdSlide_Text001 {
+	font-family: KoreanSSTR;
+	font-size: 40px;
+	color: #fa5b5b;
+	line-height: 1.7;
+}
+
+.thirdSlide_Text005 {
+	font-family: KoreanSSTR;
+	font-size: 40px;
+	color: #fa1a1a;
+	line-height: 1.7;
+}
+
+.thirdSlide_Text002 {
+	font-family: KoreanSSTR;
+	font-size: 65px;
+	color: #ffffff;
+}
+
+.thirdSlide_Text002 {
+	-webkit-text-stroke: 2px #fe6969
+}
+
+.thirdSlide_Text003 {
+	font-family: KoreanHBRGR;
+	font-size: 28px;
+	color: #000000;
+	line-height: 1.5;
+}
+
+.thirdSlide_Text004 {
+	font-family: KoreanHBRGR;
+	font-size: 28px;
+	color: #000000;
+}
+
+.thirdSlide_Link002 {
+	font-family: KoreanSIJR;
+	color: white;
+	background-color: #f27638;
+	border-radius: 900px;
+	padding: 10px 20px;
+}
+
+.thirdSlide_Link002 a {
+	color: white;
+}
+
+.thirdSlide_Link002 a:hover {
+	color: white;
+}
+
+
+
+
+
+

@@ -1,0 +1,240 @@
+@charset "EUC-KR";
+
+body {
+	display: block;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+table {
+	background-color: #f9fcf6;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#clear {
+	clear: both;
+}
+
+#custopmPop_wrap {
+	width: 623px;
+	margin: auto;
+}
+
+#cusPop_close {
+	float: right;
+	padding-top: 5x;
+	padding-right: 10px;
+}
+
+#cusPop_logo {
+	width: 100%;
+	text-align: center;
+}
+
+#cusPop_orderName {
+	width: 100%;
+	text-align: center;
+	font-family: KoreanDDDR;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.cPOName_text01 {
+	font-weight: bold;
+	font-size: 20pt;
+	color: #46ac03;
+}
+
+.cPOName_text02 {
+	font-size: 13pt;
+	color: #46ac03;
+}
+
+.cPOName_text03 {
+	font-weight: 500;
+	font-size: 17pt;
+	color: #46ac03;
+}
+
+#cusPop_explain {
+	width: 100%;
+	text-align: center;
+	font-family: KoreanDDDR;
+	font-size: 12pt;
+	color: #656565;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#cusPop_date {
+	float: right;
+	padding-right: 20px;
+	font-family: KoreanDDDR;
+	font-size: 13pt;
+	color: #46ac03;
+	margin-bottom: 10PX;
+}
+
+/* ================================== */
+
+#cusPop_content {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.cusPop_table {
+	width: 100%;
+	border-top: 1px solid #6ccd37;
+	border-bottom: 1px solid #6ccd37;
+}
+
+.Cpop_td01 {
+	width: 146px;
+	height: 49px;
+	border-bottom: 1px solid #6ccd37;
+	font-family: a해바라기;
+	font-size: 14pt;
+	color: #46ac03;
+}
+
+.Cpop_td02 {
+	width: 172px;
+	height: 49px;
+	border-bottom: 1px solid #6ccd37;
+	font-family: a해바라기;
+	font-size: 14pt;
+	color: #46ac03;
+}
+
+.Cpop_td03 {
+	width: 148px;
+	height: 49px;
+	border-bottom: 1px solid #6ccd37;
+	font-family: a해바라기;
+	font-size: 14pt;
+	color: #46ac03;
+}
+
+.Cpop_td04 {
+	width: 118px;
+	height: 49px;
+	border-bottom: 1px solid #6ccd37;
+	font-family: a해바라기;
+	font-size: 14pt;
+	color: #46ac03;
+}
+
+.Cpop2_td01 {
+	width: 146px;
+	height: 68px;
+	font-family: a해바라기;
+	font-size: 16pt;
+	color: #46ac03;
+}
+
+.Cpop2_td02 {
+	width: 172px;
+	height: 68px;
+	font-family: a해바라기;
+	font-size: 13pt;
+	color: #4a4a4a;
+}
+
+.Cpop2_td03 {
+	width: 148px;
+	height: 68px;
+	font-family: a해바라기;
+	font-size: 13pt;
+	color: #4a4a4a;
+}
+
+.Cpop2_td04 {
+	width: 118px;
+	height: 68px;
+	font-family: a해바라기;
+	font-size: 15pt;
+	color: #46ac03;
+}
+
+/* ================================== */
+
+#cusPop_total {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 70px;
+}
+
+.CpopTotal_text01 {
+	font-family: a해바라기;
+	font-size: 18pt;
+	color: #46ac03;
+	font-weight: 400;
+	margin-left: 40px;
+}
+
+.CpopTotal_text02 {
+	font-family: a해바라기;
+	font-size: 10pt;
+	color: #46ac03;
+	font-weight: 300;
+	margin-left: 3px;
+}
+
+.CpopTotal_text03 {
+	font-family: a해바라기;
+	font-size: 22pt;
+	color: #46ac03;
+	font-weight: 600;
+	float: right;
+	margin-right: 40px;
+}
+
+#cusPop_under {
+	width: 100%;
+}
+
+.cP_but01 {
+	/* width: 207px;
+	height: 64px; */
+	background-color: #d4d4d4;
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 17pt;
+	border: 0px;
+	margin-right: 7px;
+	padding: 18px 60px;
+}
+
+.cP_but02 {
+	/* width: 207px;
+	height: 64px; */
+	background-color: #91d635;
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 17pt;
+	border: 0px;
+	margin: 0px;
+	padding: 18px 35px;
+}
+
+.cP_but03 {
+	/* width: 207px;
+	height: 64px; */
+	background-color: #91d635;
+	color: white;
+	font-family: NanumBarunGothic YetHangul;
+	font-size: 17pt;
+	border: 0px;
+	margin: 0px;
+	padding: 18px 60px;
+}
+
+

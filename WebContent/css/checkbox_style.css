@@ -1,0 +1,74 @@
+@charset "EUC-KR";
+
+.cusradio01 { 
+	width: 113px; 
+	height: 30px;
+	margin: 0 auto;
+	font-family: KoreanSNML;
+}
+
+.btn-light { 
+	color: black; background-color: white; 
+	border: 1px solid #cccccc; 
+	border-radius: 10px;
+	margin: 5px;
+}
+
+#cusradiotext01 {
+	width: 113px; 
+	height: 62px; 
+	padding: 4px;
+	margin: 0 auto;
+}
+
+.radiotext01 {
+	width: 113px;
+	font-family: NanumSquare; 
+	font-size: 12px;
+	line-height: 2%
+}
+
+.radiotext02 {
+	font-size: 14px;
+	font-family: NanumSquare;
+}
+
+.btn {
+	/* 버튼 밖으로 글자가 나가지 않도록 한다. */
+	white-space: normal;
+	
+	/* 버튼 안쪽 padding값을 조절한다. */
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.btn-light:hover {
+	/* color: white; 
+	background-color: #c7e0a7; */ 
+	border: 1px solid #cccccc; /* margin: 5px; */
+}
+
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+		background-color: green;
+		color: white;
+	}
+	
+.btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child) {
+	border-radius: 15px;
+}
+
+.btn-warning {
+	background-color: green;
+}
+
+.btn-group > :not(:last-child).btn-group > .btn, .btn-group > :not(:last-child):not(.dropdown-toggle).btn {
+	border-radius: 15px;
+}
+
+.cusRadioStyle {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
